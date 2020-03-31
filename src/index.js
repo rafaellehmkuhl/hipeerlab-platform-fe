@@ -10,6 +10,7 @@ import Supplies from "./pages/Supplies";
 import Home from "./pages/Home";
 import Donate from "./pages/Donate";
 import Faq from "./pages/Faq";
+import Order from "./pages/Order";
 /*import Accountability from "./pages/Accountability";*/
 
 ReactDOM.render(
@@ -21,6 +22,7 @@ ReactDOM.render(
         <Route path="/suprimentos" component={Supplies} />
         <Route path="/respiradores" component={Ventilator} />
         <Route path="/faq" component={Faq} />
+        <Route path="/pedidos" component={Order} />
         {/*<Route path="/contabilidade" component={Accountability} />*/}
         <Redirect to="/" />
       </Switch>
